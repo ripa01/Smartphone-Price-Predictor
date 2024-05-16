@@ -6,7 +6,9 @@ import numpy as np
 pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 
-st.title("Mobile Price Predictor")
+st.title("Smartphone Price Predictor")
+# Main page content
+st.image('mobile.png', use_column_width=True)
 
 # brand
 Company = st.selectbox('Brand',df['Brand'].unique())
