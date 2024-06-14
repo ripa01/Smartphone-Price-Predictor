@@ -2,6 +2,29 @@
 
 Welcome to the Smartphone Price Predictor repository! This project leverages machine learning to predict the price of a smartphone in Bangladeshi Taka (TK) using various features of the device. The model is deployed using Streamlit for an interactive web application and also hosted on Hugging Face Spaces for broader accessibility.
 
+## Overview
+
+This repository includes:
+
+1. **Data Collection**: The dataset used for training the model.
+2. **Model Training**: Machine learning model for predicting smartphone prices.
+3. **Deployment**: Instructions for deploying the model using Streamlit and Hugging Face.
+
+## Dataset
+
+The dataset contains detailed information about smartphones, including:
+
+- **Brand**: The brand of the smartphone.
+- **Model**: The specific model of the smartphone.
+- **RAM**: The amount of RAM in GB.
+- **Storage**: The internal storage capacity in GB.
+- **Camera**: Camera specifications (e.g., dual 12MP).
+- **Battery**: Battery capacity in mAh.
+- **Screen Size**: Screen size in inches.
+- **Processor**: Information about the processor.
+- **Price (TK)**: The price of the smartphone in Bangladeshi Taka.
+
+For more details about the dataset, please visit [Mobile Dataset](https://github.com/ripa01/mobile_dataset) on GitHub.
 
 ## Getting Started
 
